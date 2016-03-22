@@ -2,7 +2,7 @@ CREATE TABLE users (
   id            SERIAL PRIMARY KEY,
   handle        VARCHAR(16) UNIQUE  NOT NULL,
   pubkey        TEXT                NOT NULL,
-  fingerprint   VARCHAR(128) UNIQUE NOT NULL,
+  fingerprint   BYTEA UNIQUE        NOT NULL,
   last_activity TIMESTAMPTZ         NOT NULL DEFAULT NOW(),
   created_at    TIMESTAMPTZ         NOT NULL DEFAULT NOW()
 );

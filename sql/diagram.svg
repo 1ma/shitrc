@@ -74,7 +74,7 @@
         <path d="M-0 73 L-0 97 L218 97 L218 73 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
-        <path d="M-0 0 L-0 22 L92 22 L92 0 Z"/>
+        <path d="M-0 0 L-0 22 L45 22 L45 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
         <path d="M-0 0 L-0 22 L102 22 L102 0 Z"/>
@@ -281,8 +281,8 @@
     <g fill="rgb(92,92,66)" font-size="15" font-family="'Ubuntu'" transform="matrix(1,0,0,1,20,20) translate(112.375,103)" stroke="rgb(92,92,66)">
       <rect x="0" width="218" height="24" y="0" clip-path="url(#clipPath7)" stroke="none"/>
     </g>
-    <g fill="rgb(153,153,153)" font-size="15" font-family="'Ubuntu'" transform="matrix(1,0,0,1,20,20) translate(236.375,104)" stroke="rgb(153,153,153)">
-      <text x="3" xml:space="preserve" y="16" clip-path="url(#clipPath19)" stroke="none">varchar(128)</text>
+    <g fill="rgb(153,153,153)" font-size="15" font-family="'Ubuntu'" transform="matrix(1,0,0,1,20,20) translate(283.375,104)" stroke="rgb(153,153,153)">
+      <text x="3" xml:space="preserve" y="16" clip-path="url(#clipPath19)" stroke="none">bytea</text>
     </g>
     <g fill="rgb(92,92,66)" font-size="15" font-family="'Ubuntu'" transform="matrix(1,0,0,1,20,20) translate(114.375,104)" stroke="rgb(92,92,66)">
       <rect x="0" width="20" height="22" y="0" clip-path="url(#clipPath20)" stroke="none"/>
@@ -556,23 +556,23 @@
       <text x="21" xml:space="preserve" y="16" clip-path="url(#clipPath66)" stroke="none">admittances</text>
     </g>
     <g fill="rgb(88,157,246)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,20,20)" stroke-linecap="butt" stroke="rgb(88,157,246)">
-      <path fill="none" d="M283 427.9512 L283 403 L271.375 403 L271.375 389.0488" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M221.375 225.9512 L221.375 187.0488" clip-path="url(#clipPath2)"/>
     </g>
     <g fill="rgb(88,157,246)" stroke-miterlimit="1.45" transform="matrix(1,0,0,1,20,20)" stroke-linecap="butt" stroke="rgb(88,157,246)">
-      <path d="M271.375 378.0488 L265.375 390.0488 L277.375 390.0488 Z" stroke="none" clip-path="url(#clipPath2)"/>
-      <text x="242" y="415.0918" clip-path="url(#clipPath2)" fill="rgb(187,187,187)" font-family="sans-serif" stroke="none" xml:space="preserve">channel_id:id</text>
-      <path fill="none" d="M159.75 464.47 L159.75 403 L171.375 403 L171.375 389.0488" clip-path="url(#clipPath2)"/>
-      <path d="M171.375 378.0488 L165.375 390.0488 L177.375 390.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <text x="118.75" y="433.3418" clip-path="url(#clipPath2)" fill="rgb(187,187,187)" font-family="sans-serif" stroke="none" xml:space="preserve">channel_id:id</text>
+      <path d="M221.375 176.0488 L215.375 188.0488 L227.375 188.0488 Z" stroke="none" clip-path="url(#clipPath2)"/>
+      <text x="186.375" y="205.1543" clip-path="url(#clipPath2)" fill="rgb(187,187,187)" font-family="sans-serif" stroke="none" xml:space="preserve">owner_id:id</text>
       <path fill="none" d="M53.25 464.47 L53.25 403 L76.7917 403 L76.7917 201 L148.0417 201 L148.0417 187.0488" clip-path="url(#clipPath2)"/>
       <path d="M148.0417 176.0488 L142.0417 188.0488 L154.0417 188.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <text x="32.7917" y="306.1543" clip-path="url(#clipPath2)" fill="rgb(187,187,187)" font-family="sans-serif" stroke="none" xml:space="preserve">admittee_id:id</text>
+      <path fill="none" d="M283 427.9512 L283 403 L271.375 403 L271.375 389.0488" clip-path="url(#clipPath2)"/>
+      <path d="M271.375 378.0488 L265.375 390.0488 L277.375 390.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <text x="242" y="415.0918" clip-path="url(#clipPath2)" fill="rgb(187,187,187)" font-family="sans-serif" stroke="none" xml:space="preserve">channel_id:id</text>
       <path fill="none" d="M383 427.9512 L383 403 L363.7917 403 L363.7917 201 L294.7083 201 L294.7083 187.0488" clip-path="url(#clipPath2)"/>
       <path d="M294.7083 176.0488 L288.7083 188.0488 L300.7083 188.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <text x="326.7917" y="306.1543" clip-path="url(#clipPath2)" fill="rgb(187,187,187)" font-family="sans-serif" stroke="none" xml:space="preserve">author_id:id</text>
-      <path fill="none" d="M221.375 225.9512 L221.375 187.0488" clip-path="url(#clipPath2)"/>
-      <path d="M221.375 176.0488 L215.375 188.0488 L227.375 188.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <text x="186.375" y="205.1543" clip-path="url(#clipPath2)" fill="rgb(187,187,187)" font-family="sans-serif" stroke="none" xml:space="preserve">owner_id:id</text>
+      <path fill="none" d="M159.75 464.47 L159.75 403 L171.375 403 L171.375 389.0488" clip-path="url(#clipPath2)"/>
+      <path d="M171.375 378.0488 L165.375 390.0488 L177.375 390.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <text x="118.75" y="433.3418" clip-path="url(#clipPath2)" fill="rgb(187,187,187)" font-family="sans-serif" stroke="none" xml:space="preserve">channel_id:id</text>
     </g>
   </g>
 </svg>
