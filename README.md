@@ -1,0 +1,2 @@
+# shitrc
+shitty relay chat
